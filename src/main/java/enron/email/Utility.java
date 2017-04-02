@@ -4,13 +4,23 @@ import javax.mail.MessagingException;
 import javax.mail.Session;
 import javax.mail.internet.MimeMessage;
 import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.text.SimpleDateFormat;
+import java.util.List;
 import java.util.Properties;
+import java.util.stream.Collectors;
 
 public class Utility {
 
-    final static String emailsPath = "/enron_with_categories/*/*.txt";
+    final static String emailsPath = "/Users/a.ahmed/workspace/enron-email/src/main/resources/enron_with_categories/";
+    public static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd");
+
+    //final static String emailsPath = "/enron_with_categories/*/*.txt";
 
     public static MimeMessage stringToMimeMessage(String content) {
         Session s = Session.getDefaultInstance(new Properties());
@@ -33,6 +43,15 @@ public class Utility {
             return null;
         }
         return null;
+    }
+
+    public static List<File> listFilesForFolder(final File folder) throws IOException {
+        return Files.walk(folder.toPath())
+                .filter(Files::isRegularFile)
+                .filter(f -> (f.toString().endsWith(".txt") && !f.toString().contains("categories.txt")))
+                .map(Path::toFile)
+                .collect(Collectors.toList());
+
     }
 
     // We use this to group all messages between A,B
