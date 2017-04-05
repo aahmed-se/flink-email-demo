@@ -10,10 +10,6 @@ dependencies {
     compile 'javax.mail:javax.mail-api:1.5.6'
     compile 'javax.mail:mail:1.5.0-b01'
     compile 'org.apache.commons:commons-lang3:3.5'
-    // compile 'org.scala-lang:scala-library:2.11.8'
-    // compile 'com.h2database:h2:1.4.194'
-    // compile 'org.apache.spark:spark-core_2.10:2.1.0'
-    // compile 'org.scala-lang:scala-xml:2.11.0-M4'
     compile group: 'org.apache.flink', name: 'flink-core', version: '1.2.0'
     compile group: 'org.apache.flink', name: 'flink-java', version: '1.2.0'
     compile group: 'org.apache.flink', name: 'flink-clients_2.10', version: '1.2.0'
@@ -23,6 +19,7 @@ dependencies {
 
 run {
 	standardInput = System.in
+    args project.getProperty('emailDir')
 }
 
 mainClassName = 'enron.email.Driver'
