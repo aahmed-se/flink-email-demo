@@ -17,8 +17,6 @@ import java.util.stream.Collectors;
 
 public class Utility {
 
-    final static String emailsPath = "/Users/a.ahmed/workspace/enron-email/src/main/resources/enron_with_categories/";
-
     public static final SimpleDateFormat DATE_FORMAT_DAY = new SimpleDateFormat("yyyy-MM-dd");
 
     public static MimeMessage stringToMimeMessage(String content) {

@@ -11,10 +11,8 @@ public class Driver {
 
     public static void main(String[] args) throws Exception {
 
-        String logPath = Utility.emailsPath;
-
         List<String> messages = new ArrayList<>();
-        for(File entry : Utility.listFilesForFolder(new File(logPath))){
+        for(File entry : Utility.listFilesForFolder(new File(args[0]))){
             String content = new String(Files.readAllBytes(entry.toPath()));
             //MimeMessage message = Utility.stringToMimeMessage(content);
             //System.out.println(content);
