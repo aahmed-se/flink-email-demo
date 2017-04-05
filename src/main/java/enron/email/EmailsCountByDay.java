@@ -31,12 +31,11 @@ public class EmailsCountByDay {
         }
     }
 
-    public void getMailsByDay(List<String> messages) throws Exception {
+    public void getMailCountByDay(List<String> messages) throws Exception {
 
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
         DataSet<String> messageDataSet = env.fromCollection(messages);
-
 
         DataSet<Tuple2<String, Integer>> counts =
                 messageDataSet.flatMap(new EmailsCountByDay.MailByDaySplitter())
@@ -44,8 +43,6 @@ public class EmailsCountByDay {
                         .aggregate(Aggregations.SUM, 1);
 
         counts.print();
-
-        //env.execute("Get Emails Count By Day");
 
     }
 }

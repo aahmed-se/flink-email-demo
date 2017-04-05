@@ -32,7 +32,7 @@ public class FastestResponseTimes {
             }
 
             if(responseList.size() > 1){
-                long responseTime = Utility.dateDiffinSeconds(responseList.get(1).f2, responseList.get(0).f2);
+                long responseTime = Utility.dateDiffInSeconds(responseList.get(1).f2, responseList.get(0).f2);
                 out.collect(new Tuple2<>(responseTime, responseList.get(0).f1));
             }
 

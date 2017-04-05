@@ -22,10 +22,19 @@ public class Driver {
         }
 
 
-        //new EmailsCountByDay().getMailCountByDay(messages);
-        //new DirectMessage().topDirectMessageReceiver(messages);
-        //new BroadCastMessage().topBroadcastMessageSender(messages);
+        System.out.println("=== Email Count By Day");
+        new EmailsCountByDay().getMailCountByDay(messages);
+        System.out.println("Email Count By Day ===");
+        System.out.println("=== Top Direct Message Receiver");
+        new DirectMessage().topDirectMessageReceiver(messages);
+        System.out.println("Top Direct Message Receiver === ");
+        System.out.println("=== Top Broadcast Sender");
+        new BroadCastMessage().topBroadcastMessageSender(messages);
+        System.out.println("Top Broadcast Sender === ");
+        System.out.println("=== Top 5 fastest Reponse");
         new FastestResponseTimes().fastestResponseTime(messages);
+        System.out.println("Top 5 fastest Reponse === ");
+
     }
 
 }

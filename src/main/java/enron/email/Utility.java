@@ -47,10 +47,11 @@ public class Utility {
         }
         subject = subject.toLowerCase();
         subject = subject.replaceAll("re:","");
+        subject = subject.replaceAll("fe:","");
         return subject;
     }
 
-    public static long dateDiffinSeconds(Date newDate , Date oldDate){
+    public static long dateDiffInSeconds(Date newDate , Date oldDate){
 
         return (newDate.toInstant().toEpochMilli() - oldDate.toInstant().toEpochMilli()) / 1000;
 
