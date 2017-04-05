@@ -1,15 +1,10 @@
 package enron.email.fastestreponse;
 
-import com.sun.org.apache.regexp.internal.RESyntaxException;
-
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.common.functions.GroupReduceFunction;
 import org.apache.flink.api.common.operators.Order;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
-import org.apache.flink.api.java.operators.FlatMapOperator;
-import org.apache.flink.api.java.operators.GroupReduceOperator;
-import org.apache.flink.api.java.operators.SortedGrouping;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.util.Collector;
@@ -24,16 +19,15 @@ import javax.mail.internet.MimeMessage;
 
 import enron.email.Utility;
 
-
 public class FastestResponseTimes {
 
-    public class Reducer implements GroupReduceFunction<Tuple3<String, EmailPairInfo, Date>, Tuple2<Long, EmailPairInfo>>{
+    public class EmailResponseReducer implements GroupReduceFunction<Tuple3<Conversation, EmailPairInfo, Date>, Tuple2<Long, EmailPairInfo>>{
 
-        List<Tuple3<String, EmailPairInfo, Date>> responseList = new ArrayList<>();
+        List<Tuple3<Conversation, EmailPairInfo, Date>> responseList = new ArrayList<>();
 
         @Override
-        public void reduce(Iterable<Tuple3<String, EmailPairInfo, Date>> values, Collector<Tuple2<Long, EmailPairInfo>> out) throws Exception {
-            for(Tuple3<String, EmailPairInfo, Date> entry : values){
+        public void reduce(Iterable<Tuple3<Conversation, EmailPairInfo, Date>> values, Collector<Tuple2<Long, EmailPairInfo>> out) throws Exception {
+            for(Tuple3<Conversation, EmailPairInfo, Date> entry : values){
                 responseList.add(entry);
             }
 
@@ -45,11 +39,10 @@ public class FastestResponseTimes {
         }
     }
 
-
-    public class SenderRecipientPairSplitter implements FlatMapFunction<String, Tuple3<String, EmailPairInfo, Date>> {
+    public class SenderRecipientPairSplitter implements FlatMapFunction<String, Tuple3<Conversation, EmailPairInfo, Date>> {
 
         @Override
-        public void flatMap(String value, Collector<Tuple3<String, EmailPairInfo, Date>> out) throws Exception {
+        public void flatMap(String value, Collector<Tuple3<Conversation, EmailPairInfo, Date>> out) throws Exception {
 
             MimeMessage message = Utility.stringToMimeMessage(value);
             if(message != null && message.getAllRecipients() != null && message.getSubject() != null && message.getSentDate() != null) {
@@ -62,7 +55,7 @@ public class FastestResponseTimes {
                         List<String> namesList = Arrays.asList(temp);
                         String normalizedSubject = Utility.normalizeSubject(message.getSubject());
                         out.collect(new Tuple3<>(
-                                new Conversation(namesList.toString(), normalizedSubject).toString(),
+                                new Conversation(namesList.toString(), normalizedSubject),
                                 new EmailPairInfo(namesList, message.getSubject(), normalizedSubject, message.getSentDate(), addressTo.toString(), addressFrom.toString()),
                                 message.getSentDate()
                         ));
@@ -78,24 +71,14 @@ public class FastestResponseTimes {
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
         DataSet<String> messageDataSet = env.fromCollection(messages);
-//
+
         DataSet<Tuple2<Long, EmailPairInfo>> fastestReponses = messageDataSet.flatMap(new SenderRecipientPairSplitter())
                 .groupBy(0)
                 .sortGroup(2, Order.ASCENDING)
-                .reduceGroup(new Reducer())
+                .reduceGroup(new EmailResponseReducer())
                 .sortPartition(0, Order.ASCENDING)
                 .first(5);
 
-//        DataSet<Tuple2<Long, EmailPairInfo>> fastestReponses = messageDataSet.flatMap(new SenderRecipientPairSplitter())
-//                .groupBy(0)
-//                .sortGroup(2, Order.ASCENDING)
-//                .reduceGroup(new Reducer());
-//                .sortPartition(0, Order.ASCENDING).first(5);
-
-
-//        DataSet fastestReponses = messageDataSet.flatMap(new SenderRecipientPairSplitter());         .groupBy(0)
-//                .sortGroup(2, Order.ASCENDING)
-//                .reduceGroup(new Reducer());
         fastestReponses.print();
 
     }
