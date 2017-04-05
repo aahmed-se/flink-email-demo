@@ -109,7 +109,7 @@ Subject: Computer Based Communications Training Initiative
 
 As agreed in our V&V meeting today I have attached two items for your review:
 1. A list of those who have been interviewed or have been part of a focus 
-group on this subject.
+group on this conversationMembers.
 
 The input from individuals on this list will be the basis for developing the 
 5-7 key scenarios that will be a part of the training.  Please let me know if 

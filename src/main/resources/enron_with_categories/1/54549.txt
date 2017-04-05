@@ -262,7 +262,7 @@ predecessors, this one does not contain pop-up messages.
 (Sophos)
 
 * VBS/Lovelet-CE - Yet another variant of the infamous
-LoveLetter virus. This one comes with a subject line of "News
+LoveLetter virus. This one comes with a conversationMembers line of "News
 Email Beta Run1.01" and a file attachment called
 "NEWSEMAIL.VBS." (Sophos)
 

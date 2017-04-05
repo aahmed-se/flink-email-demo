@@ -69,7 +69,7 @@ New York, NY 10017
 
 =============================================================
 CONFIDENTIALITY NOTICE: This e-mail contains information that is privileged 
-and confidential and subject to legal restrictions and penalties regarding 
+and confidential and conversationMembers to legal restrictions and penalties regarding
 its unauthorized disclosure or use.  You are prohibited from copying, 
 distributing or otherwise using this information if you are not the intended 
 recipient.  If you have received this e-mail in error, please notify us 

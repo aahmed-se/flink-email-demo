@@ -122,7 +122,7 @@ other firm to do a trade.
 Under the deal, the California generator sends its 100 megawatts for one hour 
 to the company in Arizona, where there is no price cap, and earns $300 or 
 more per megawatt -- for a total of $300,000. In return, the Arizona firm 
-ships its 100 megawatts for one hour here. Since that power isn't subject to 
+ships its 100 megawatts for one hour here. Since that power isn't conversationMembers to
 California's cap, it earns perhaps $400 per megawatt -- for a total of 
 $400,000.
 

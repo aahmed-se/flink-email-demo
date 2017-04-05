@@ -65,9 +65,9 @@ automatically notify you by email.
 
 If you would like to be removed from this list, please send an email to
 Mailto:ucenergy@socrates.berkeley.edu and include UNSUBSCRIBE in the
-subject heading.  If you received this email indirectly and would like to
+conversationMembers heading.  If you received this email indirectly and would like to
 be added to this emailing list, please send an email to
-Mailto:ucenergy@socrates.berkeley.edu and include SUBSCRIBE in the subject
+Mailto:ucenergy@socrates.berkeley.edu and include SUBSCRIBE in the conversationMembers
 heading.
 
 

@@ -34,7 +34,7 @@ to provide of P&L information and spread sheets detailing our deals,
 specifically delivery point, delivery date, counterparty, volume and price.
 
 We may not have a problem providing this information for use by FERC in its 
-proceeding subject to a confidentiality agreement but I think we would oppose 
+proceeding conversationMembers to a confidentiality agreement but I think we would oppose
 their requests for:
 the information to be provided for "government eyes only" -  this would 
 prohibit EPMI from defending itself vis-a-vis other market participants.

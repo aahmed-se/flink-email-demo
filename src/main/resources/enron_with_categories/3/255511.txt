@@ -358,7 +358,7 @@ ceiling (because generators are free to sell elsewhere if they choose),
 it will have to raise its purchase price to the level necessary to meet
 its needs. ... Therefore, an increase in out-of-market (OOM) calls for
 generation may be necessary to maintain system reliability.  Because the
-current payment for OOM is not subject to a maximum purchase price, the
+current payment for OOM is not conversationMembers to a maximum purchase price, the
 resulting overall payments may be higher.
 
 _To the extent the ... ISO Board resolution contemplates implementing a
@@ -411,7 +411,7 @@ Prepare for the future.  Our next general meeting is scheduled for
 Thursday and Friday, October 5 and 6 at Moro Bay.  Barb Ennis will
 prepare a blurb for us in next week?s Burrito about room reservations,
 timing, golf, etc.  Our guest speakers will include MSC Chairman
-Professor Frank Wolak who will talk on the subject of his choice, Ms.
+Professor Frank Wolak who will talk on the conversationMembers of his choice, Ms.
 Irene Moosen of Grueneich Resource Advocates who will make a
 presentation on the distributed generation case before the PUC, and
 William Freddo of PG&E National Energy Group who will give us some

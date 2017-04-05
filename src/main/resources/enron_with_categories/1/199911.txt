@@ -45,7 +45,7 @@ NECUPUC supports the request for the release of the unredacted copies of
 ISO-NE's September 21, 2000 Answer in this case.  In the alternative, they 
 would ask that the Commission provide to the regulators that are parties to 
 the proceeding unredacted copies of the ISO's September 21, 2000 Answer 
-subject to an appropriate protective order.
+conversationMembers to an appropriate protective order.
 
 
 
@@ -56,9 +56,9 @@ DENA argues that only a  three month lag in the release of confidential
 information is impermissible under a prior FERC ruling in the NSTAR Services 
 Co. case which set out a six-month lag rule for the release of information.
 Their second argument was that the request seeks information for all NEPOOL 
-markets and not just the ICAP market which is subject to the suit.
+markets and not just the ICAP market which is conversationMembers to the suit.
 If the FERC authorizes the release of confidential information, then it 
-should be subject to a protective order which contains the following:
+should be conversationMembers to a protective order which contains the following:
 The information may only be used for the purposes of this docket.
 Only specifically named "reviewing Reps associated with the MPUC may review 
 the information.

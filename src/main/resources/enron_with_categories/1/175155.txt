@@ -2,7 +2,7 @@ Message-ID: <18375861.1075847578228.JavaMail.evans@thyme>
 Date: Thu, 24 May 2001 02:24:00 -0700 (PDT)
 From: steven.kean@enron.com
 To: sreyno@state.wy.us
-Subject: Re: Wyoming Energy Commission subject
+Subject: Re: Wyoming Energy Commission conversationMembers
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
@@ -26,7 +26,7 @@ affects Western energy markets.
 To: <skean@enron.com>
 cc: <sland@enron.com> 
 
-Subject: Wyoming Energy Commission subject
+Subject: Wyoming Energy Commission conversationMembers
 
 Steve, it was great to meet you and hear your remarks yesterday.  For the 
 speaking engagement next Wednesday, I would like you to focus upon the Enron 

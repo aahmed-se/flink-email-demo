@@ -74,7 +74,7 @@ For more information, please contact:
 Nancy Etkin at 703-532-6887 or netkin@caem.org
 
 If you do not wish to receive announcements from CAEM, please put "remove"
-in the subject line in a reply to this email.
+in the conversationMembers line in a reply to this email.
 477
 
 

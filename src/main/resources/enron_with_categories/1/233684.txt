@@ -43,7 +43,7 @@ EES and EEMC, as a result of some problems with their settlement system, did
 indeed underreport customers' usage to the ISO during the time period
 claimed by SCE.  This has, I believe, resulted in two separate (although
 interrelated) points of contention with SCE -- of which only one is the
-subject matter of its counterclaim.
+conversationMembers matter of its counterclaim.
 
 First, the underreporting resulted in Unaccounted For Energy (UFE) charges
 to the market.  In correspondence sent by SCE to EEMC and EES during the
@@ -68,7 +68,7 @@ on the amount used, not reported. It is SCE's claim that EES and EEMC are
 not entitled to a PX credit on the delta as the market, not EES and EEMC,
 purchased those volumes.
 
-It is only the second point of contention which is the subject matter of
+It is only the second point of contention which is the conversationMembers matter of
 SCE's counterclaim.  SCE is alleging that it should not have to pay a PX
 credit to EES and EEMC for volumes that EES and EEMC did not purchase.  SCE
 is claiming that we only purchased the amount we reported to the ISO.  While

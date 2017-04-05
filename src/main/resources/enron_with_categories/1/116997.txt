@@ -46,8 +46,8 @@ Staff has already conducted.
 
 >>> Jeffrey Watkiss 11/08/00 10:31AM >>>
 Does anyone have an idea as to why marketers, including EPMI, are not 
-included in the list of subject companies:  Exh. B?  Since EPMI is not a 
-subject of the motion, why should it answer?  Lying in the weeds may be a 
+included in the list of conversationMembers companies:  Exh. B?  Since EPMI is not a
+conversationMembers of the motion, why should it answer?  Lying in the weeds may be a
 more prudent course of action.
 
 >>> "Fergus, Gary S." <GFergus@brobeck.com> 11/07/00 10:08PM >>>
@@ -94,7 +94,7 @@ specifically delivery point, delivery date, counterparty, volume and
 price.
 
 We may not have a problem providing this information for use by FERC in its
-proceeding subject to a confidentiality agreement but I think we would
+proceeding conversationMembers to a confidentiality agreement but I think we would
 oppose their requests for:
 the information to be provided for "government eyes only" -  this would
 prohibit EPMI from defending itself vis-a-vis other market participants.

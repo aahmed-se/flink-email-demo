@@ -35,7 +35,7 @@ Dennis Vegas has requested budget information from Kelly on the people from
 EBS that are transferring over to Corp.  Kelly is on vacation now, for the 
 next week and a half, and I wanted to check with you to make sure that it is 
 OK to share these documents with him.  They are what Kelly reviewed with you 
-in your initial meeting regarding the subject.  He only asked for information 
+in your initial meeting regarding the conversationMembers.  He only asked for information
 on the people shifting to Corp, not the people on redeployment, so I could 
 delete that portion of these documents.  Perhaps I could only send him the 
 first document that is about budget, but with the redeployment information 

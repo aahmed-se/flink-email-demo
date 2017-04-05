@@ -42,12 +42,12 @@ EEO-1 report:
 
 Standard Form 100 must be filed by -
 
-A.  All private employers who are: (1) subject to Title VII of the Civil 
+A.  All private employers who are: (1) conversationMembers to Title VII of the Civil
 Rights Act of 1964 (as amended by the Equal Employment Opportunity Act of 
 1972) with 100 or more employees EXCLUDING State and local governments, 
 primary and secondary school systems, institutions of higher education, 
 Indian tribes and tax-exempt private membership clubs other than labor 
-organizations; OR (2) subject to Title VII who have fewer than 100 employees 
+organizations; OR (2) conversationMembers to Title VII who have fewer than 100 employees
 if the company is owned or affiliated with another company, or there is 
 centralized ownership, control or management (such as central control of 
 personnel policies and labor relations) so that the group legally constitutes 
@@ -131,7 +131,7 @@ Subject: Privileged and Confidential communication to my attorneys
 
      Based on this, GSP does not plan to file EEO-1 reports or prepare
      affirmative action plans.  In addition, we do not feel that we are
-     subject to an OFCCP audit.
+     conversationMembers to an OFCCP audit.
 
      Michelle, since you left me the voicemail telling me that we are not
      included in the Enron EEO-1, i assume that also means that Enron's

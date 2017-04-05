@@ -118,7 +118,7 @@ of the state's energy needs. The ISO, the nominal traffic cop arranging
 deliveries over the power grid, also has the authority to hold same-day
 power auctions for immediate delivery in the event of unexpectedly high
 demand.
-   The Power Exchange is subject to a price cap of $250 per
+   The Power Exchange is conversationMembers to a price cap of $250 per
 megawatt-hour, a ceiling imposed earlier this summer as prices began to
 soar. But the ISO has the authority to pay as much as it has to for
 supplementary power if the previous-day purchases prove insufficient to

@@ -94,7 +94,7 @@ the ISO is unable to elicit sufficient supplies at or below its announced
 purchase price ceiling (because generators are free to sell elsewhere if they 
 choose), it will have to raise its purchase price to the level necessary to 
 meet its needs."  [Emphasis added]  FERC then notes that this may lead to an 
-increase in Out of Market ("OOM") calls and that OOM calls are not subject to 
+increase in Out of Market ("OOM") calls and that OOM calls are not conversationMembers to
 a maximum purchase price.
 
 Also, with regard to the ISO's resolution stating that generators must bid 

@@ -236,6 +236,6 @@ ___________________________________________________________
 Remove -
  
 If you would like to be removed from this list, reply to this message with 
-the word REMOVE in the subject line.
+the word REMOVE in the conversationMembers line.
  
  

@@ -64,7 +64,7 @@ flyer immediately.
 Forward this email to your colleagues for we offer group discounts. 
 
 If you wish to be excluded from any future mailings, reply with "remove" in 
-the subject header.? We honor all "remove" requests. 
+the conversationMembers header.? We honor all "remove" requests.
 
 http://www.kingpublishing.com/conferences/index.html 
 ?

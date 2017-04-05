@@ -25,7 +25,7 @@ while conditioning our production on two points, first, that we reserve the
 right to seek stronger protection in the order (a la Williams' motion) for
 any subsequent materials we do agree to produce or which are compelled to be
 produced, and two, that the materials we are currently producing which are
-entitled to confidentiality (the trading data at a minimum) shall be subject
+entitled to confidentiality (the trading data at a minimum) shall be conversationMembers
 to the most stringent protective order which the Commission issues in this
 proceeding, i.e., we get the benefit of any additional protections Williams
 can secure.  I only suggest this so we can stay out of the limelight by not

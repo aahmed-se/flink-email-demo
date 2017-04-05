@@ -91,7 +91,7 @@ Please note the following when planning our legal strategy:
 - Enron Capital & Trade Resources Limited ("ECTRL") (an English incorporated 
 company) is our company which has entered into physical electricty sales 
 contracts to supply certain Dutch Distribution Companies. The physical supply 
-contracts are governed by Dutch law and are subject either to ICC arbitration 
+contracts are governed by Dutch law and are conversationMembers either to ICC arbitration
 in either Paris, Rotterdam or the Hague or the NAI in Rotterdam or the Hague 
 (dependant upon the counterparty). 
 
@@ -263,7 +263,7 @@ swaps or physical contracts.
  
 Initial Clifford Chance view:  None / no suitable  pre-emptive action 
 available to Enron - defences / counterclaims only.  All proceedings likely 
-to be in England and subject to contracts' governing law (English) (under Art 
+to be in England and conversationMembers to contracts' governing law (English) (under Art
 17 Brussels' convention + Dutch conflict of laws principles).  Highly 
 unlikley that any U.S. action by Enron practically possible - U.S. courts 
 will consider forum shopping (unless can show that Dutch counterparty has 

@@ -5,6 +5,8 @@ import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 
+import enron.email.fastestreponse.FastestResponseTimes;
+
 public class Driver {
 
     public static void main(String[] args) throws Exception {
@@ -21,8 +23,9 @@ public class Driver {
 
 
         //new EmailsCountByDay().getMailCountByDay(messages);
-        new DirectMessage().topDirectMessageReceiver(messages);
-        new BroadCastMessage().topBroadcastMessageSender(messages);
+        //new DirectMessage().topDirectMessageReceiver(messages);
+        //new BroadCastMessage().topBroadcastMessageSender(messages);
+        new FastestResponseTimes().fastestResponseTime(messages);
     }
 
 }

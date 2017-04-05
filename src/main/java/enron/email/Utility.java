@@ -10,6 +10,7 @@ import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 import java.util.stream.Collectors;
@@ -37,6 +38,21 @@ public class Utility {
                 .filter(f -> (f.toString().endsWith(".txt") && !f.toString().contains("categories.txt")))
                 .map(Path::toFile)
                 .collect(Collectors.toList());
+
+    }
+
+    public static String normalizeSubject(String subject) throws IOException {
+        if(subject == null){
+            return null;
+        }
+        subject = subject.toLowerCase();
+        subject.replaceAll("re:","");
+        return subject;
+    }
+
+    public static long dateDiffinSeconds(Date newDate , Date oldDate){
+
+        return (newDate.toInstant().toEpochMilli() - oldDate.toInstant().toEpochMilli()) / 1000;
 
     }
 

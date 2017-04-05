@@ -58,4 +58,4 @@ we should have known by now).  Burlington might try to argue that we have an
 absolute obligation to comply with the agreement, even if it means expensive 
 system modifications.  That argument is not a very strong one because the 
 agreement contains no such affirmative obligation and in fact quite clearly 
-describes the facilities that are the subject of the agreement.
+describes the facilities that are the conversationMembers of the agreement.

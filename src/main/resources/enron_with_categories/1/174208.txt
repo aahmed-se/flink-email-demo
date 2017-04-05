@@ -37,6 +37,6 @@ contains the following: "And the tools to hedge prices, such as those that
 exist in other commodities markets, aren't fully developed yet for th 
 fledgling deregulated electricity industry."
 That might be worthy of comment in my talk. Anything I should see on the 
-subject?
+conversationMembers?
 
 

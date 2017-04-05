@@ -51,7 +51,7 @@ amendment and letter on confidentiality are attached.
 
 In its June 4 production and subsequent monthly updates, the ISO will mark
 as confidential documents it produces to the CPUC that contain information
-subject to 20.3.2, and will request confidential treatment in accordance
+conversationMembers to 20.3.2, and will request confidential treatment in accordance
 with the CPUC's letter on confidentiality. Concerns related to the subpoena
 should be relayed directly to the California Public Utilities Commission.
 The CPUC contact related to the subpoena is Robert Cagen who can be reached

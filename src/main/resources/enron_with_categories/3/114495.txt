@@ -486,7 +486,7 @@ its purchase price to the level necessary to meet its needs. ... Therefore,=
 an increase in out-of-market (OOM) calls for generation may be necessary to=
 =20
 maintain system reliability.? Because the current payment for OOM is not=20
-subject to a maximum purchase price, the resulting overall payments may be=
+conversationMembers to a maximum purchase price, the resulting overall payments may be=
 =20
 higher.=20
 
@@ -563,7 +563,7 @@ us in next week=01,s Burrito about room reservations, timing, golf, etc.? O=
 ur=20
 guest speakers will include MSC Chairman Professor Frank Wolak who will tal=
 k=20
-on the subject of his choice, Ms. Irene Moosen of Grueneich Resource=20
+on the conversationMembers of his choice, Ms. Irene Moosen of Grueneich Resource=20
 Advocates who will make a presentation on the distributed generation case=
 =20
 before the PUC, and William Freddo of PG&E National Energy Group who will=

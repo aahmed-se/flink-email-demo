@@ -139,7 +139,7 @@ industry trade group.
 Power generators also point to sharp increases in some of their costs, 
 particularly natural gas, which is a major power-plant fuel. This rise in 
 natural-gas prices also has set off a flurry of investigations over possible 
-manipulation. One such case, involving El Paso Corp., Houston, is the subject 
+manipulation. One such case, involving El Paso Corp., Houston, is the conversationMembers
 of probes by federal and state officials. El Paso denies any wrongdoing. 
 While power-industry officials say they have been cooperating with the 
 investigations, law-enforcement officials say they have hit some roadblocks. 
@@ -249,7 +249,7 @@ India.
 Separately, Enron said today that it was withdrawing from a pipeline project 
 in Qatar, which would have supplied some gas to Dabhol. The company said that 
 the two steps were unrelated. 
-The Dabhol project has been the subject of a series of wrangles between the 
+The Dabhol project has been the conversationMembers of a series of wrangles between the
 company and the governments of India and of the western Indian state of 
 Maharashtra. The state-owned utility company that contracted to buy power 
 from the Dabhol plant has defaulted on some $64 million in unpaid power 

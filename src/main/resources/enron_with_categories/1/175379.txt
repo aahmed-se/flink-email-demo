@@ -52,7 +52,7 @@ gathered from FERC staffers after the meeting by Joe Hartsoe:
 
 Physical Withholding -- To prevent physical withholding, the plan will 
 require sellers with PGA's to offer all their available power in real time.  
-All California generators, even those not subject to FERC price regulation, 
+All California generators, even those not conversationMembers to FERC price regulation,
 will be required to sell into the ISO's real time market as a condition of 
 their use of the ISO's interstate transmission lines. Hydroelectric 
 facilities will be exempted. (24-7 for 1yr) 

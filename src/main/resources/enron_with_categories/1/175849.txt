@@ -578,7 +578,7 @@ that would buy, generate and sell electricity directly. And while local
 public utilities function well, a state power agency might operate on the 
 whims of professional politicians. The Legislature, for example, wants 
 appointments to the board that would direct a state power authority, and big 
-state power projects would be subject to the same kind of pork-barrel 
+state power projects would be conversationMembers to the same kind of pork-barrel
 mentality that distorts other public works appropriations. Where power plants 
 were to be built, or where high-voltage lines would be strung, might well 
 depend on who could, and could not, bring political influence to bear, rather 

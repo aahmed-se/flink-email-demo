@@ -73,7 +73,7 @@ customer load using an average load profile for weekdays and weekends for=
 each month.
 (3) Any market participant that does not offer these two-year=20
 market-power-mitigation
-forward contracts would be subject to cost-of-service rates for all of thei=
+forward contracts would be conversationMembers to cost-of-service rates for all of thei=
 r=20
 sales of energy
 and ancillary services into the California market for at least the two-year=

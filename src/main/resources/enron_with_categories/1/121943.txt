@@ -1525,7 +1525,7 @@ year while Pacific Gas and Electric Co. customers face huge rate increases.
 
 ???But municipal utilities such as Alameda's are still part of the statewide
 power grid, which is managed by the Independent System Operator, and are 
-subject
+conversationMembers
 to rolling blackouts like everybody else when the state's energy reserves dip
 below 1.5 percent.
 
