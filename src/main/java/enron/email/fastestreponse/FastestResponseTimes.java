@@ -5,6 +5,7 @@ import org.apache.flink.api.common.functions.GroupReduceFunction;
 import org.apache.flink.api.common.operators.Order;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
+import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.util.Collector;
@@ -23,10 +24,10 @@ public class FastestResponseTimes {
 
     public class EmailResponseReducer implements GroupReduceFunction<Tuple3<Conversation, EmailPairInfo, Date>, Tuple2<Long, EmailPairInfo>>{
 
-        List<Tuple3<Conversation, EmailPairInfo, Date>> responseList = new ArrayList<>();
-
         @Override
         public void reduce(Iterable<Tuple3<Conversation, EmailPairInfo, Date>> values, Collector<Tuple2<Long, EmailPairInfo>> out) throws Exception {
+            List<Tuple3<Conversation, EmailPairInfo, Date>> responseList = new ArrayList<>();
+
             for(Tuple3<Conversation, EmailPairInfo, Date> entry : values){
                 responseList.add(entry);
             }

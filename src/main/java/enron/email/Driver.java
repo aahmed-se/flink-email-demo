@@ -14,7 +14,7 @@ public class Driver {
         List<String> messages = new ArrayList<>();
         for(File entry : Utility.listFilesForFolder(new File(args[0]))){
             String content = new String(Files.readAllBytes(entry.toPath()));
-            //MimeMessage message = Utility.stringToMimeMessage(content);
+            //MimeMessage m0ssage = Utility.stringToMimeMessage(content);
             //System.out.println(content);
             messages.add(content);
         }

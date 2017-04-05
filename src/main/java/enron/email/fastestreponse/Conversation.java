@@ -2,13 +2,12 @@ package enron.email.fastestreponse;
 
 import java.io.Serializable;
 
-public class Conversation implements Serializable {
+public class Conversation implements Serializable, Comparable<Conversation> {
 
     public String sortedEmails;
     public String subjectNormalized;
 
     public Conversation() {
-
 
     }
 
@@ -44,6 +43,8 @@ public class Conversation implements Serializable {
         this.subjectNormalized = subjectNormalized;
     }
 
-
-
+    @Override
+    public int compareTo(Conversation o) {
+        return this.toString().compareTo(o.toString());
+    }
 }

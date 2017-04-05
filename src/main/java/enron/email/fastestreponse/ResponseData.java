@@ -1,6 +1,8 @@
 package enron.email.fastestreponse;
 
-public class ResponseData {
+import java.io.Serializable;
+
+public class ResponseData implements Serializable, Comparable<ResponseData> {
 
     public EmailPairInfo emailPairInfo;
     public long durationSeconds;
@@ -20,6 +22,11 @@ public class ResponseData {
 
     public ResponseData(){
 
+    }
+
+    @Override
+    public int compareTo(ResponseData o) {
+        return this.toString().compareTo(o.toString());
     }
 
 }

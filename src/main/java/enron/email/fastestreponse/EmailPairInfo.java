@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-public class EmailPairInfo implements Serializable {
+public class EmailPairInfo implements Serializable, Comparable<EmailPairInfo> {
 
     public List<String> sortedEmails;
     public String subject;
@@ -25,7 +25,6 @@ public class EmailPairInfo implements Serializable {
     public EmailPairInfo() {
 
     }
-
 
     @Override
     public boolean equals(Object o) {
@@ -66,5 +65,10 @@ public class EmailPairInfo implements Serializable {
                 ", receiver='" + receiver + '\'' +
                 ", sender='" + sender + '\'' +
                 '}';
+    }
+
+    @Override
+    public int compareTo(EmailPairInfo o) {
+        return this.toString().compareTo(o.toString());
     }
 }
