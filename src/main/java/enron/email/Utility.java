@@ -46,7 +46,7 @@ public class Utility {
             return null;
         }
         subject = subject.toLowerCase();
-        subject.replaceAll("re:","");
+        subject = subject.replaceAll("re:","");
         return subject;
     }
 
